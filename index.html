@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>millitext reader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        canvas {
+            border: 1px solid black;
+            margin-top: 20px;
+        }
+        #upload {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>millitext reader</h1>
+    <p>this tool converts images with millitext into readable images, useful if your monitor doesnt process rgb the same way</p>
+    <input type="file" id="upload" accept="image/*">
+    <canvas id="canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
